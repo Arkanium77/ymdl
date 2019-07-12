@@ -649,5 +649,5 @@ def main():
     except OSError as e:
         logging.exception(e)
 
-
-main()
+if __name__=="__main__":
+    main()
